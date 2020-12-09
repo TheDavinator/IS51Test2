@@ -12,10 +12,10 @@ def main() :
     for i in scores:
         if float(i) > avg:
             counter += 1
-            percent_average = counter/len(scores)
+            percent_avg = counter/len(scores)
     print("The class average is:", avg)
     print("The number of students is:", len(scores))
-    print("The percentage of the class above the average is:", percent_average, "%")
+    print("The percentage of the class above the average is:", percent_avg, "%")
 
 
 
